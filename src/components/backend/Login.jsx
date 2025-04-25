@@ -4,7 +4,8 @@ import Footer from '../common/Footer'
 import { useForm } from "react-hook-form"
 import { toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
-import { AuthContext } from '../context/Auth'
+import { AuthContext } from './context/Auth'
+
 
 const Login = () => {
   const {login} = useContext(AuthContext)
